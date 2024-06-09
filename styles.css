@@ -4,6 +4,10 @@ body {
     margin: 0;
     font-family: Tahoma;
     font-size: 16px;
+    /*chocolate*/
+    background-color: #2b1700;
+    /*cheddar*/
+    color: #EE9A09;
 }
 
 h1,
@@ -15,4 +19,32 @@ p {
 label {
     display: block;
     margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input[type=submit] {
+    /*butterscotch*/
+    background-color: fdb147;
+    color: black;
+    font-weight: bold;
+}
+
+fieldset {
+    border: none;
+    /* tawny */
+    border-bottom: 2px solid #7E481C;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
 }

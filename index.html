@@ -1,40 +1,39 @@
-<!DOCTYPE html/>
+<!DOCTYPE html />
 <html lang="en">
-  <head>
-  <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Survey Form</title>
-    <link rel="stylesheet" src="styles.css"/>
-  </head>
-  <body>
-    <body>
-      <h1 id="title">Complete the Survey!</h1>
-      <p id="description">Please complete this survey to help us serve you better.</p>
-      <form id="survey-form">
-        <fieldset>
-          <label id="name-label" for="myname">Enter full name: 
-            <input id="myname" name="myname" type="text" 
-            required maxlength="30" placeholder="eg John Q Smith..."/>
-          </label>
-          <label id="email-label" for="email">Enter email: 
-            <input type="email" name="email" 
-            id="email" placeholder="Enter email..." 
-            maxlength="20" required />
-          </label>
-          <label id="number-label" for="age">Enter age (optional): 
-            <input type="number" name="age" 
-            id="age" min="4" max="90"/>
-          </label>
-        </fieldset>
-  
-        <fieldset>
-        </fieldset>
-  
-        <fieldset>
-        </fieldset>
-  
-      <input id="submit" type="submit" value="Submit your survey"/>
-      
-    </form>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1 id="title">Complete the Survey</h1>
+  <p id="description">Please complete this survey to help us serve you better.</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="myname">Enter full name:
+        <input id="myname" name="myname" type="text" required maxlength="30" placeholder="Enter full name..." />
+      </label>
+      <label id="email-label" for="email">Enter email:
+        <input  id="email" name="email" type="email" required maxlength="20" placeholder="Enter email..."
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" />
+      </label>
+      <label id="number-label" for="age">Enter age (optional):
+        <input  id="age" name="age" type="number" min="4" max="90" />
+      </label>
+    </fieldset>
+
+    <fieldset>
+    </fieldset>
+
+    <fieldset>
+    </fieldset>
+
+    <input id="submit" type="submit" value="Submit your survey" />
+
+  </form>
+</body>
+
 </html>
