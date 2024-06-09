@@ -4,10 +4,17 @@ body {
     margin: 0;
     font-family: Tahoma;
     font-size: 16px;
-    /*chocolate*/
-    background-color: #2b1700;
+    background-color: black;
     /*cheddar*/
     color: #EE9A09;
+}
+
+div.content {
+    /*chocolate*/
+    background-color: #2b1700;
+    width:75%;
+    overflow:auto;
+    border: 1px solid #fdb147;
 }
 
 h1,
@@ -29,11 +36,23 @@ select {
     min-height: 2em;
 }
 
-input[type=submit] {
+input[type=submit]
+{
     /*butterscotch*/
     background-color: fdb147;
     color: black;
     font-weight: bold;
+    width:60%;
+    height: 2em;
+    font-size: 1.2em;
+}
+
+input[type=radio].inline,
+input[type=checkbox].inline {
+    display: inline;
+    min-height: 1em;
+    width: 1em;
+    margin: 2px;
 }
 
 fieldset {
@@ -47,4 +66,5 @@ form {
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
+    padding-bottom: 2em;
 }
