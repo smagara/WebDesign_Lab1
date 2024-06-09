@@ -10,19 +10,19 @@
 
 <body>
   <h1 id="title">Complete the Survey</h1>
-  <p id="description">Please complete this survey to help us serve you better.</p>
+  <p id="description">Please complete this freeCodeCamp survey to help us improve.</p>
   <div class="content">
     <form id="survey-form">
       <fieldset>
-        <label id="name-label" for="myname">Enter full name:
-          <input id="myname" name="myname" type="text" required maxlength="30" placeholder="Enter full name..." />
+        <label id="name-label" for="name">Enter full name:
+          <input id="name" name="name" type="text" required maxlength="30" placeholder="Enter full name..." />
         </label>
         <label id="email-label" for="email">Enter email:
           <input id="email" name="email" type="email" required maxlength="20" placeholder="Enter email..."
             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" />
         </label>
-        <label id="number-label" for="age">Enter age (optional):
-          <input id="age" name="age" type="number" min="4" max="90" />
+        <label id="number-label" for="number">Enter age (optional):
+          <input id="number" name="age" type="number" min="4" max="90" placeholder="Age (optional...)"/>
         </label>
         <label id="role-label" for="dropdown">Which option best describes your current role?
           <select id="dropdown" name="role">
@@ -38,41 +38,41 @@
       <fieldset>
         <legend>What is your favorite web platform?</legend>
         <label id="Angular-label" for="radAngular">
-          <input type="radio" id="radAngular" name="platform" class="inline"></input> Angular
+          <input type="radio" id="radAngular" name="platform" class="inline" value="angular"></input> Angular
         </label>
         <label id="React-label" for="radReact">
-          <input type="radio" id="radReact" name="platform" class="inline"></input> React
+          <input type="radio" id="radReact" name="platform" class="inline" value="react"></input> React
         </label>
         <label id="Raz-label" for="radRazor">
-          <input type="radio" id="radRazor" name="platform" class="inline"></input> Razor Pages
+          <input type="radio" id="radRazor" name="platform" class="inline" value="razor"></input> Razor Pages
         </label>
         <label id="Asp-label" for="radAsp">
-          <input type="radio" id="radAsp" name="platform" class="inline"></input> ASP.Net
+          <input type="radio" id="radAsp" name="platform" class="inline" value="asp"></input> ASP.Net
         </label>
         <label id="Word-label" for="radWord">
-          <input type="radio" id="radWord" name="platform" class="inline"></input> WordPress
+          <input type="radio" id="radWord" name="platform" class="inline" value="word"></input> WordPress
         </label>
         <label id="Blaz-label" for="radBlaz">
-          <input type="radio" id="radBlaz" name="platform" class="inline"></input> Blazor
+          <input type="radio" id="radBlaz" name="platform" class="inline" value="blazor"></input> Blazor
         </label>
         <label id="Not-label" for="radNot">
-          <input type="radio" id="radNot" name="platform" class="inline"></input> HTML with Notepad
+          <input type="radio" id="radNot" name="platform" class="inline" value="notepad"></input> HTML with Notepad
         </label>
       </fieldset>
 
       <fieldset>
         <legend>What additional courses would you like to see offered?</legend>
         <label id="chkAngular-label" for="chkAngular">
-          <input type="checkbox" id="chkAngular" name="additional" class="inline"></input> Angular
+          <input type="checkbox" id="chkAngular" name="additional" class="inline" value="angular"></input> Angular
         </label>
         <label id="chkBlaz-label" for="chkBlaz">
-          <input type="checkbox" id="chkBlaz" name="additional" class="inline"></input> Blazor
+          <input type="checkbox" id="chkBlaz" name="additional" class="inline" value="blazor"></input> Blazor
         </label>
         <label id="chkReact-label" for="chkReact">
-          <input type="checkbox" id="chkReact" name="additional" class="inline"></input> React
+          <input type="checkbox" id="chkReact" name="additional" class="inline" value="react"></input> React
         </label>
         <label id="chkWord-label" for="chkOther">
-          <input type="checkbox" id="chkOther" name="additional" class="inline"></input> Other (specify below)
+          <input type="checkbox" id="chkOther" name="additional" class="inline" value="other"></input> Other (specify below)
         </label>
         <label id="other-label" for="txtOther">Specify:
           <textarea id="txtOther" name="txtOther" rows="3" cols="25" maxlength="100"></textarea>
