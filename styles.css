@@ -15,6 +15,7 @@ div.content {
     width:75%;
     overflow:auto;
     border: 1px solid #fdb147;
+    margin-left: 12%;
 }
 
 h1,
@@ -59,6 +60,7 @@ fieldset {
     border: none;
     /* tawny */
     border-bottom: 2px solid #7E481C;
+    margin-top: 3px;
 }
 
 form {
@@ -67,4 +69,8 @@ form {
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
+}
+
+div.submit {
+    text-align: center;
 }
