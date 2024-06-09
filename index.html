@@ -7,5 +7,34 @@
     <link rel="stylesheet" src="styles.css"/>
   </head>
   <body>
+    <body>
+      <h1 id="title">Complete the Survey!</h1>
+      <p id="description">Please complete this survey to help us serve you better.</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" for="myname">Enter full name: 
+            <input id="myname" name="myname" type="text" 
+            required maxlength="30" placeholder="eg John Q Smith..."/>
+          </label>
+          <label id="email-label" for="email">Enter email: 
+            <input type="email" name="email" 
+            id="email" placeholder="Enter email..." 
+            maxlength="20" required />
+          </label>
+          <label id="number-label" for="age">Enter age (optional): 
+            <input type="number" name="age" 
+            id="age" min="4" max="90"/>
+          </label>
+        </fieldset>
+  
+        <fieldset>
+        </fieldset>
+  
+        <fieldset>
+        </fieldset>
+  
+      <input id="submit" type="submit" value="Submit your survey"/>
+      
+    </form>
   </body>
 </html>
