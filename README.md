@@ -1,2 +1,4 @@
-# WebDesign_Lab1
-Lab1 from https://www.freecodecamp.org Responsive Web Design
+# WebDesign_Labs
+Labs from https://www.freecodecamp.org Responsive Web Design
+
+Lab1 Survey HTML Form
