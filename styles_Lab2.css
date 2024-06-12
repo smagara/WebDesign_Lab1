@@ -5,10 +5,13 @@ body {
 }
 
 img {
-    height: 427px;
-    object-fit:contain;
+    height: auto;
+    max-width:100%;
+    display:block;
+    object-fit:cover;
     border: 2px solid darkgray;
-    margin-top: 3px;
+    margin: 0 auto;
+    margin-top: 5px;
     margin-bottom: 3px;
 }
 
@@ -52,4 +55,15 @@ ul {
 ul li {
     padding-left: 10px;
     padding-top: 15px;
+}
+
+.quote {
+    font-style:italic;
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+}
+
+hr {
+    width: 60%;
 }
