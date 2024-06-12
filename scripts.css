@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: #e0e9f1;
+}
+
+img {
+    height: 125px;
+    object-fit:contain;
+    border: 2px solid darkgray;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+div[id="img-div"] {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border: 3px solid grey;
+    padding: 3px 3px 3px 3px;
+}
+
+div.center {
+    text-align: center;
+    margin: auto;
+}
+
+.year {
+    font-weight: 800;
+}
+
+section {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
