@@ -5,11 +5,16 @@ body {
 }
 
 img {
-    height: 125px;
+    height: 427px;
     object-fit:contain;
     border: 2px solid darkgray;
     margin-top: 3px;
     margin-bottom: 3px;
+}
+
+.attribution {
+    font-size: 0.8em;
+    font-style: italic;
 }
 
 div[id="img-div"] {
@@ -20,19 +25,31 @@ div[id="img-div"] {
     padding: 3px 3px 3px 3px;
 }
 
-div.center {
+div.centerimg {
+    margin: 0 auto;
+}
+
+div.centerdiv {
     text-align: center;
-    margin: auto;
 }
 
 .year {
     font-weight: 800;
 }
 
-section {
-    text-align: center;
+.divTimeline {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 15px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 ul {
-    text-align: center;
+    margin: 10px;
+}
+
+ul li {
+    padding-left: 10px;
+    padding-top: 15px;
 }
